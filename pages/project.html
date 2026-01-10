@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects | Portfolio</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background: #f4f4f4;
+            animation: fadeIn 1s ease-in;
+        }
+
+        header {
+            background: #222;
+            color: white;
+            padding: 15px;
+            text-align: center;
+        }
+
+        header a {
+            color: #ff9800;
+            text-decoration: none;
+            font-size: 14px;
+        }
+
+        main {
+            max-width: 1000px;
+            margin: auto;
+            padding: 30px;
+        }
+
+        h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .project-card {
+            background: white;
+            padding: 25px;
+            margin-bottom: 25px;
+            border-left: 5px solid #ff9800;
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+            animation: slideUp 1s ease;
+        }
+
+        .project-card h3 {
+            margin-top: 0;
+            color: #222;
+        }
+
+        .project-card p {
+            line-height: 1.6;
+        }
+
+        .project-card span {
+            display: inline-block;
+            margin-top: 10px;
+            font-size: 14px;
+            color: #555;
+        }
+
+        footer {
+            background: #222;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        footer a {
+            color: #ff9800;
+            text-decoration: none;
+        }
+
+        /* Animations */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        @keyframes slideUp {
+            from {
+                transform: translateY(30px);
+                opacity: 0;
+            }
+
+            to {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Projects</h1>
+        <a href="../index.html">← Back to Home</a>
+    </header>
+
+    <main>
+        <h2>Academic & Personal Projects</h2>
+
+        <div class="project-card">
+            <h3>Portfolio Website</h3>
+            <p>
+                Designed and developed a personal portfolio website using
+                HTML, CSS, and basic animations to showcase skills,
+                education, and projects.
+            </p>
+            <span><strong>Technologies:</strong> HTML, CSS</span>
+        </div>
+
+        <div class="project-card">
+            <h3>Student Management System</h3>
+            <p>
+                A simple web-based application to manage student details,
+                including add, update, delete, and view operations.
+            </p>
+            <span><strong>Technologies:</strong> PHP, MySQL</span>
+        </div>
+
+        <div class="project-card">
+            <h3>Online Quiz Application</h3>
+            <p>
+                Developed an online quiz system where users can answer
+                multiple-choice questions and view scores instantly.
+            </p>
+            <span><strong>Technologies:</strong> HTML, CSS, JavaScript</span>
+        </div>
+
+        <div class="project-card">
+            <h3>Library Management System</h3>
+            <p>
+                Created a mini project to manage books, members, and
+                borrowing records for a library.
+            </p>
+            <span><strong>Technologies:</strong> C, File Handling</span>
+        </div>
+    </main>
+
+    <footer>
+        <p>© 2026 Kavya BK | <a href="mailto:kavyabk139@gmail.com">Contact Me</a></p>
+    </footer>
+
+</body>
+
+</html>
